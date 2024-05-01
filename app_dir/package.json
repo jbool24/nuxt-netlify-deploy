@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-test",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 npx ntl serve",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/content": "^2.12.1",
+    "@nuxt/ui": "^2.15.2",
+    "@nuxtjs/sitemap": "^5.1.2",
+    "nuxt": "^3.9",
+    "nuxt-og-image": "3.0.0-rc.52",
+    "nuxt-schema-org": "^3.3.6"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.23.1"
+  }
+}
